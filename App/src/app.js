@@ -13,6 +13,4 @@ app.use(Router);
 
 template(app);
 
-app.listen(process.env.PORT || 3000 ,()=>{
-    console.log('Vem pro fut vem');
-});
+app.listen(process.env.PORT || 3000 );

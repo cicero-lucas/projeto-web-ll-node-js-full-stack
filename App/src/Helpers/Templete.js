@@ -9,6 +9,7 @@ exports.init = function (app){
         layoutsDir:LAYOUTS_DIR
         
     }));
+    
     app.set('view engine', 'html');
     app.set('views', VIEWS_DIR);
 }
